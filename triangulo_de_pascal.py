@@ -11,4 +11,8 @@ print("\nEmpieza el Triangulo de pascal:")
 for k in listaExt:
 	print(k)
 
-
+arr = [1,2,3,4,10,11]
+n = 0
+for i in arr:
+	n=n+i
+print(n)
