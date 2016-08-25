@@ -1,30 +1,30 @@
 
 #Python if-else
 
-# import sys
+import sys
 
-# n = int(input().strip())
-# isWeird = True
-# isOneToHundred = False
+n = int(input().strip())
+isWeird = True
+isOneToHundred = False
 
-# if n >= 1 and n <= 100:
-# 	isOneToHundred = True
+if n >= 1 and n <= 100:
+	isOneToHundred = True
 
-# if n%2 > 0:
-# 	isWeird = True
-# else:
-# 	isWeird = False
+if n%2 > 0:
+	isWeird = True
+else:
+	isWeird = False
 
-# if isWeird and isOneToHundred:
-# 	print('Weird')
-# else:
-# 	if n > 2 and n <= 5:
-# 		print('Not Weird')
-# 	else:
-# 		if n <= 20:
-# 			print('Weird')
-# 		else:
-# 			print('Not Weird')
+if isWeird and isOneToHundred:
+	print('Weird')
+else:
+	if n > 2 and n <= 5:
+		print('Not Weird')
+	else:
+		if n <= 20:
+			print('Weird')
+		else:
+			print('Not Weird')
 
 #Python arithmetic
 
