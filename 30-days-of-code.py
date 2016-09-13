@@ -111,9 +111,29 @@
 
 # Day 8: Dictionaries and Maps
 # 
-n = int(input())
-phoneBook = {}
-for n in range(n):
-	phoneBook.update()
+# import sys
 
-print(phoneBook)
+# n = int(input())
+# phoneBook = {}
+# if n >= 1 and n <= 10**5:
+# 	for i in range(n):
+# 		dato = input('').split()
+# 		phoneBook[dato[0]] = dato[1]
+
+# 	queries = sys.stdin.readlines()
+# 	for query in queries:
+# 		name = query.strip()
+# 		if name in phoneBook:
+# 			print(name + "=" + str(phoneBook[name]))
+# 		else:
+# 			print("Not found")
+
+#Day 9: Recursión
+#
+def factorial (n):
+	if n-1 >= 1:
+		return n*factorial(n-1)
+	else:
+		return n
+
+print(factorial(int(input())))
