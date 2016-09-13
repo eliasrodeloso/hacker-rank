@@ -108,3 +108,12 @@
 # 	for i in range(k,0,-1):
 # 		lista.append(str(arr[i-1]))
 # 	print(" ".join(lista))
+
+# Day 8: Dictionaries and Maps
+# 
+n = int(input())
+phoneBook = {}
+for n in range(n):
+	phoneBook.update()
+
+print(phoneBook)
